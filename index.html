@@ -4,34 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wellcome to Imperial Bank service</title>
-
-    <!-- bootstrap cdn link  -->
+    
+    <!-- google font added link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@500;700&display=swap"
       rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
     />
-    <!-- tailwind cdn link  -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-    <style></style>
+    <!-- style sheet connect link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Wellcome to Imperial Banking System</title>
   </head>
   <body>
-    <!-- bootstrap js link  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-      integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
-      crossorigin="anonymous"
-    ></script>
+    <header>
+      <h1>
+        Wellcome to
+        <span>Imperial Banking Service</span> System
+      </h1>
+    </header>
 
-    <!-- login js link  -->
+    <main>
+      <div class="main-container">
+        <img src="images/logo.png" alt="" />
+        <p>Please Enter Your Email & Password and Login </p>
+        
+        <form action="">
+          <input id="email-fild" type="text" placeholder="email">
+          <input id="password-fild" type="password" placeholder="password">
+        </form>
+
+
+        <button id="login-button">
+          Login
+        </button>
+      </div>
+    </main>
+    <div>
+      <p>Email: abc@gmail.com</p>
+      <p>Password: 1234</p>
+    </div>
+
+    <footer>
+      <p>@Copyright by <span>Mission SCIC (B-6) Group</span></p>
+      <p>Follow Us</p>
+      <div class="flex">
+        <p><i class="fa-brands fa-square-facebook"></i></i></p>
+        <p><i class="fa-brands fa-square-instagram"></i></p>
+        <p><i class="fa-brands fa-linkedin"></i></p>
+      </div>
+    </footer>
+
     <script src="js/login.js"></script>
   </body>
 </html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wellcome to Imperial Bank service</title>
+
+    <!-- google font added link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome cdn link  -->
+    <script src="https://kit.fontawesome.com/c856552904.js" crossorigin="anonymous"></script>
+    
+    <!-- style sheet connect link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <header>
+      <h1>
+        Wellcome to <span class="text-primary">Imperial bank Services</span>
+      </h1>
+    </header>
+    <main>
+      <!-- time and buttons section  -->
+      <section class="time-and-button">
+        <div class="time-btn-secrion">
+          <!-- time  -->
+          <div class="day-time">
+            <p>
+              Date: <span id="day">17</span>/ <span id="month">08</span>/
+              <span id="year">2022</span>
+            </p>
+            <p>
+              Time: <span id="hours">12</span>/ <span id="min">30</span>/
+              <span id="sec">40</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- button  -->
+        <div class="buttons">
+          <button class="button statement">Prient Statement</button>
+          <button class="button logout">Logout</button>
+        </div>
+      </section>
+
+      <!-- dashbord section  -->
+      <section class="dashbord">
+        <div class="main-container">
+          <div class="output-section">
+            <!-- deposit  -->
+            <div class="container">
+              <div class="deposit-name">
+                <img src="images/deposit_money.jpg" alt="" />
+                <div class="container-text">
+                  <h2><span>Deposit</span></h2>
+                  <h3>$ <span id="deposit-fild">110</span></h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- withdrow -->
+            <div class="container">
+              <div class="withdrow-name">
+                <img src="images/widthrow_money.jpg" alt="" />
+                <div class="container-text withdrow">
+                  <h2><span>withdrow</span></h2>
+                  <h3>$ <span id="withdrow-fild">110</span></h3>
+                </div>
+              </div>
+            </div>
+
+            <!-- current -->
+            <div class="container">
+              <div class="current-name">
+                <img src="images/total_money.PNG" alt="" />
+                <div class="container-text current">
+                  <h2><span>Balance</span></h2>
+                  <h3>$ <span id="deposit-fild">110</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- input fild  -->
+          <div class="input-container">
+            <!-- deposit  -->
+            <div class="deposit-container">
+              <input
+                id="deposit-input"
+                type="text"
+                placeholder="deposit ammount"
+              />
+              <button id="deposit-button">Deposit</button>
+            </div>
+
+            <!-- withdrow -->
+            <div class="withdrow-container">
+              <input
+                id="withdrow-input"
+                type="text"
+                placeholder="withdrow ammount"
+              />
+              <button id="withdrow-button">Withdrow</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copiright">@Copyright by <span>Mission SCIC (B-6) Group</span></p>
+      <p>Follow Us</p>
+      <div class="flex">
+        <p><i class="fa-brands fa-square-facebook"></i></i></p>
+        <p><i class="fa-brands fa-square-instagram"></i></p>
+        <p><i class="fa-brands fa-linkedin"></i></p>
+      </div>
+    </footer>
+
+    <!-- login js link  -->
+    <script src="js/login.js"></script>
+  </body>
+</html>

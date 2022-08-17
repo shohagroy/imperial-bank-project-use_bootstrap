@@ -1,0 +1,341 @@
+
+
+/* dashbord page  */
+
+/* header section  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fredoka One', cursive;
+
+}
+header{
+    background-color: rgb(255, 233, 233);
+    text-align: center;
+    padding: 2%;
+    color: red;
+}
+
+header span{
+    color: rgb(75, 75, 255);
+}
+
+.time-and-button{
+    background-color: rgba(255, 255, 0, 0.465);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.statement{
+    background-color: green;
+}
+.logout{
+    background-color: red;
+}
+
+/* main dashbord  */
+.output-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5%;
+    background-color: lightblue;
+    padding: 2%;
+}
+
+.output-section img{
+    border-radius: 20px;
+    width: 40%;
+}
+.container{
+    
+
+}
+
+
+.deposit-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 201, 106);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.withdrow-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 172, 172);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.current-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(146, 146, 234);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.container-text{
+    padding: 20px;
+}
+
+.container-text h2{
+    font-size: 50px;
+    color: white;
+}
+
+.container-text h3{
+    font-size: 50px;
+    color: green;
+}
+
+.withdrow h3{
+    font-size: 50px;
+    color: red;
+
+}
+
+.current h3{
+    font-size: 50px;
+    color: yellow;
+}
+
+/* input fild  */
+
+.input-container{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2%;
+    padding: 30px;
+    padding-bottom: 8%;
+}
+
+.deposit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.withdrow-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#deposit-input{
+    width: 60%;
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#deposit-button{
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(82, 238, 82);
+    color: rgb(104, 104, 104);
+}
+
+#deposit-button:hover{
+    background-color: green;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+/* withdrow  */
+
+#withdrow-input{
+    width: 60%;
+    height: 50px;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#withdrow-button{
+    width: 20%;
+    height: 50px;
+    padding: 10px;
+    font-size: 25px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 185, 185);
+    color: rgb(104, 104, 104);
+}
+
+#withdrow-button:hover{
+    background-color: red;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.copiright{
+    padding-top: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .fa-brands:hover {
+    font-size: 25px;
+  }
+
+
+  /* mobile responcesive */
+
+
+  @media only screen and (max-width: 900px) {
+    .time-and-button{
+        display: block;
+    }
+    .day-time{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .output-section{
+        display: block;
+        background-color: lightblue;
+    }
+
+    
+    .deposit-name{
+        margin: 20px 5px;
+    }
+
+    .withdrow-name{
+        margin: 20px 5px;
+    }
+
+    .current-name{
+        margin: 20px 5px;
+    }
+    .container-text{
+        padding: 10px;
+    }
+    
+    .container-text h2{
+        font-size: 40px;
+        color: white;
+    }
+    
+    .container-text h3{
+        font-size: 40px;
+        color: green;
+    }
+    
+    .withdrow h3{
+        font-size: 40px;
+        color: red;
+    
+    }
+    
+    .current h3{
+        font-size: 40px;
+        color: yellow;
+    }
+
+    .input-container{
+        background-color: lightblue;
+        display: block;
+        padding: 10px;
+        padding-bottom: 10%;
+    }
+    
+    
+    #deposit-input{
+        width: 70%;
+        height: 50px;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    
+    #deposit-button{
+        width: 30%;
+        height: 50px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    /* withdrow  */
+    
+    #withdrow-input{
+        margin-top: 15px;
+        width: 70%;
+        height: 50px;
+        padding: 10px 30px;
+        font-size: 20px;
+    }
+    
+    #withdrow-button{
+        margin-top: 15px;
+        width: 30%;
+        height: 50px;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .copiright{
+        padding-top: 20px;
+    }
+  }
