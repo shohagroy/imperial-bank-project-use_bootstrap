@@ -1,18 +1,22 @@
 
 
-/* dashbord page  */
-
-/* header section  */
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* dashbord page  */
+
+
 body{
     font-family: 'Fredoka One', cursive;
 
 }
+
+/* header section  */
+
 header{
     background-color: rgb(255, 233, 233);
     text-align: center;
@@ -339,3 +343,8 @@ footer{
         padding-top: 20px;
     }
   }
+
+
+
+
+

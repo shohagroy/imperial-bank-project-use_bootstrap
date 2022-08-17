@@ -13,13 +13,16 @@
       rel="stylesheet"
     />
 
+    <!-- fontawesome cdn link  -->
+    <script src="https://kit.fontawesome.com/c856552904.js" crossorigin="anonymous"></script>
+
     <!-- style sheet connect link  -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
 
     <title>Wellcome to Imperial Banking System</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <h1>
         Wellcome to
         <span>Imperial Banking Service</span> System
@@ -30,13 +33,9 @@
       <div class="main-container">
         <img src="images/logo.png" alt="" />
         <p>Please Enter Your Email & Password and Login </p>
-        
-        <form action="">
-          <input id="email-fild" type="text" placeholder="email">
-          <input id="password-fild" type="password" placeholder="password">
-        </form>
 
-
+        <input type="text" placeholder="email address" id="email-fild">
+        <input type="text" placeholder="password" id="password-fild">
         <button id="login-button">
           Login
         </button>
@@ -48,7 +47,7 @@
     </div>
 
     <footer>
-      <p>@Copyright by <span>Mission SCIC (B-6) Group</span></p>
+      <p class="copyright">@Copyright by <span>Mission SCIC (B-6) Group</span></p>
       <p>Follow Us</p>
       <div class="flex">
         <p><i class="fa-brands fa-square-facebook"></i></i></p>
