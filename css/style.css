@@ -47,9 +47,15 @@ header span{
 
 
 .statement{
+    background-color: rgba(0, 128, 0, 0.602);
+}
+.statement:hover{
     background-color: green;
 }
 .logout{
+    background-color: rgba(255, 0, 0, 0.548);
+}
+.logout:hover{
     background-color: red;
 }
 
@@ -163,6 +169,7 @@ header span{
     height: 50px;
     padding: 10px;
     font-size: 25px;
+    font-weight: bold;
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -174,8 +181,7 @@ header span{
 #deposit-button:hover{
     background-color: green;
     color: white;
-    font-size: 23px;
-    font-weight: bold;
+    font-size: 25px;
 }
 
 /* withdrow  */
@@ -201,13 +207,12 @@ header span{
     cursor: pointer;
     background-color: rgb(255, 185, 185);
     color: rgb(104, 104, 104);
+    font-weight: bold;
 }
 
 #withdrow-button:hover{
     background-color: red;
     color: white;
-    font-size: 23px;
-    font-weight: bold;
 }
 
 
@@ -233,9 +238,6 @@ footer{
     font-size: 20px;
     cursor: pointer;
     transition: all 0.3s;
-  }
-  .fa-brands:hover {
-    font-size: 25px;
   }
 
 

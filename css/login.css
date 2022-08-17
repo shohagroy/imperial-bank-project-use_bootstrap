@@ -56,13 +56,17 @@ input{
 
 #login-button{
     padding: 15px 30px;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.676);
     color: white;
     border: none;
     border-radius: 10px;
     font-size: 25px;
     font-family: 'Fredoka One', cursive;
     cursor: pointer;
+}
+
+#login-button:hover{
+    background-color: blue;
 }
 
 /* footer */
